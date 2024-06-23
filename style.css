@@ -1,0 +1,398 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(48, 47, 47);
+    height: 100px;
+    width:100%;
+    box-shadow: 0px 1px 3px #ccc;
+    padding: 8px 13px 0px 13px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+nav .logo  {
+    
+    padding-left: 200px;
+    align-items: center;
+    
+}
+nav .logo p {
+    color:rgb(89, 226, 192) ;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+nav .logo h6 {
+    color:rgb(255, 255, 255) ;
+    padding-left: 50px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.parts{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 200px ;
+    
+}
+.parts a {
+    padding-left: 30px;
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fa-search{
+    color:rgb(7, 240, 201);
+    padding-left: 30px;
+
+}
+.firstPart{
+    display:flex;
+    
+    background: linear-gradient(90deg, rgb(0, 0, 3) 0%, rgb(20, 20, 20) 35%, #8cb1a6 100%);
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.firstPart .p0{
+    padding: 100px;
+    color: #ccc;
+    
+}
+.firstPart .p1{
+    
+    color:rgb(0, 255, 242);
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.firstPart .p2{
+    display: flex;
+    font-size: 50px;
+    margin: 5px;
+    
+
+}
+
+.firstPart .pic{
+    
+    width: 40%;
+    opacity: .7;
+    
+    
+
+}
+.firstPart .p3{
+    font-size: 50px;
+    font-weight: bolder;
+    
+
+}
+.a7a{
+    font-size: 50px ;
+    font-weight: bolder;
+}
+hr{
+    border: 1px solid rgb(0, 255, 242);
+     margin-top: 20px;
+    }
+.lor{
+    margin-top: 20px;
+    font-size: smaller;
+
+}
+.play {
+    display: flex;
+    margin-top: 35px;
+}
+.hrbr{
+    padding-top: 50px;
+}
+.play img {
+    padding: 20px;
+    margin: 20px;
+}
+.hrbr span{
+    font-size: 10px;
+}
+.pic{
+    margin-top: 5px;
+}
+.second-part{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+        
+}
+.second-left{
+
+
+    padding-bottom: 80px;
+    padding-right: 100px;
+    width: 50%;
+    height: 300px;
+    
+}
+.second-left .p21{
+    color: aqua;
+    font-weight: bold;    
+    margin-left: 150px;
+    padding-top: 30px;
+    font-size: 10px;
+
+}
+.p22{
+    color: white;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.second-left hr{
+    margin-left: 160px;
+}
+.p23{
+    margin-left: 140px;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+
+}
+.second-left button{
+    background-color:aqua;
+    padding: 10px;
+    margin-left: 150px;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    border-color:aqua;
+    
+}
+.p23{
+    color: #a19f9f;
+}
+
+.boxs{
+    display: flex;
+   flex-wrap: wrap;
+    margin-left: 150px;
+    padding: 10px;
+    
+}
+
+.first-box{
+    
+    background-color: #0f0f0f;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+
+}
+.second-box{
+    
+    background-color: #0f0f0f;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+
+
+}
+.third-box{
+    
+    background-color: #0f0f0f;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+
+
+}
+.forth-box{
+    
+    background-color: #0f0f0f;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+
+
+}
+.third-part {
+    background-color: #181717;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-pic{
+    margin: 0px 0px 0px 60px;
+    padding: 50px 0px 0px 60px;
+    opacity: 0.5;
+}
+.third-right{
+    margin-top: 60px;
+    margin-right: 60px;
+}
+.third-right .ABOUUT{
+font-size: 30px;
+}
+.third-right .we{
+    font-size: 70px;
+    font-weight:bolder;
+    
+}
+.boxs2{
+    display: flex;
+    
+   margin-left: 50px;
+   margin-top: 80px;
+}
+.box2{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.box1{
+    display: flex;
+    align-items: center;
+    
+}
+.box1 img{
+    padding-right: 20px;
+    width: 100px
+    ;
+}
+.box2 img{
+    padding-right: 20px;
+    width: 100px
+    ;
+}
+.forthpart{
+    /*background: */
+      /*  linear-gradient(to bottom right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), /* Gradient overlay */
+        /*url('imagess 4/1.jpg');*/
+   background-image: url("imagess 4/1.jpg"); /* The image used */
+    
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 0.8;
+    display: flex;
+    
+   /*justify-content: space-between;*/
+   /* margin: 50px 150px 50px 150px;*/
+  }
+    .boxx{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 70px 200px 70px 270px;
+        position: relative;
+        
+        
+        
+
+
+    }
+    .boxx p{
+    color: white;
+    }
+.boxx .box11{
+    
+    
+    text-align: center;
+}
+.boxx .box12{
+    
+    text-align: center;
+}
+.boxx .box13{
+   
+    text-align: center;
+}
+.boxx .box14{
+    
+    text-align: center;
+}
+
+
+ /*.linear{
+   
+    background: linear-gradient(50deg,  #458874 100%, rgb(107, 93, 93) 100%,  rgb(0, 0, 3) 100%);
+  
+    
+   
+    opacity: .5;
+    z-index: -15; 
+    position: absolute;
+}*/
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("imagess 4/pexels-binyaminmellish-108942.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: .8;
+    
+}
+
+.call{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 5px solid rgb(0, 255, 157);
+    height: 500px;
+    width: 450px;
+    
+}
+.Message{
+    margin-left: 10px;
+    height: 100px;
+    width: 420px;
+}
+.call .dash{
+    margin-left: 10px;
+    height: 30px;
+    width: 420px;
+    line-height: 20px;
+}
+.call label{
+    margin-left: 10px;
+    line-height: 20px;
+}
+.call button{
+    background-color:rgb(37, 177, 177);
+    padding: 10px;
+    margin-left: 120px;
+    color: white;
+    font-size: 10px;
+    border-radius: 5px;
+    font-family:sans-serif;
+    border-color:rgb(29, 119, 119);
+    width: 200px;
+    
+}
+
